@@ -1,6 +1,3 @@
-import participanteImg from '../../assets/participante.png'
-import logo from '../../assets/logo.png'
-import logoPequeno from '../../assets/logo-pequeno.png'
 import styled from 'styled-components'
 
 const Header = styled.header`
@@ -20,13 +17,13 @@ const ImagemParticipante = styled.img`
 `
 
 const ImagemLogo = styled.div`
-    background-image: url('${logo}');
+    background-image: url('/assets/logo.png');
     width: 351px;
     height: 117px;
 
 
     @media(max-width: 768px){
-        background-image: url(${logoPequeno});
+        background-image: url(/assets/logo-pequeno.png);
         background-repeat: no-repeat;
         width: 235px;
         height: 199px;
@@ -37,7 +34,7 @@ const Cabecalho = () => {
     return (
         <Header>
             <ImagemLogo/>
-            <ImagemParticipante src={participanteImg} alt='participante com presente' />
+            <ImagemParticipante src='/assets/participante.png' alt='participante com presente' />
         </Header>
     )
 }
