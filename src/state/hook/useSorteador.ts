@@ -2,6 +2,7 @@ import shuffle from "just-shuffle";
 import { useListaParticipantes } from "./useListaParticipantes"
 import { useSetRecoilState } from "recoil";
 import { resultadoAmigoSecreto } from "../atom";
+import { realizaSorteio } from "../helpers/realizaSorteio";
 
 export const useSorteador = () => {
 
@@ -9,8 +10,7 @@ export const useSorteador = () => {
     const setResultado = useSetRecoilState(resultadoAmigoSecreto)
 
     return () => {
-        
-
+        const resultado = realizaSorteio(participantes);
         setResultado(resultado)
 
     }
