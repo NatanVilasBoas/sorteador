@@ -1,19 +1,19 @@
 import styled from 'styled-components'
 
 const Header = styled.header`
-    background-color: #4B69FD;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    padding-top: 120px;
 
     @media(max-width: 768px){
+        padding-top: 60px;
         flex-direction: column;
+        align-items: center;
     }
 `
 
 const ImagemParticipante = styled.img`
-    position: relative;
-    top: 1.9em;
+    z-index: 1;
 `
 
 const ImagemLogo = styled.div`
