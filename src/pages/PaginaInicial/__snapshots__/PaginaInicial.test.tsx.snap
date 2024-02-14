@@ -2,33 +2,46 @@
 
 exports[`a pagina inicial deve ser renderizado corretamente 1`] = `
 <div>
-  <form>
-    <input
-      placeholder="insira os nomes dos participantes"
-      type="text"
-      value=""
-    />
-    <button
-      disabled=""
-    >
-      Adicionar
-    </button>
-    
-  </form>
-  <ul />
-  <footer
-    class="sc-beySPh bzsOnG"
+  <section
+    class="sc-beySPh bePboe"
   >
-    <button
-      class="sc-guDLey crmuma"
-      disabled=""
-    >
-      Iniciar Brincadeira
-    </button>
-    <img
-      alt="Sacolas de compras"
-      src="/assets/sacolas.png"
-    />
-  </footer>
+    <section>
+      <h2>
+        Vamos começar!
+      </h2>
+      <form>
+        <div
+          class="grupo_input_btn"
+        >
+          <input
+            placeholder="insira os nomes dos participantes"
+            type="text"
+            value=""
+          />
+          <button
+            disabled=""
+          >
+            Adicionar
+          </button>
+        </div>
+        
+      </form>
+      <ul />
+      <footer
+        class="sc-guDLey kcOgeh"
+      >
+        <button
+          class="sc-dmyCSP fsnBmM"
+          disabled=""
+        >
+          Iniciar Brincadeira
+        </button>
+        <img
+          alt="Sacolas de compras"
+          src="/assets/sacolas.png"
+        />
+      </footer>
+    </section>
+  </section>
 </div>
 `;
