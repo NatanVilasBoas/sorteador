@@ -16,12 +16,19 @@ exports[`a pagina inicial deve ser renderizado corretamente 1`] = `
     
   </form>
   <ul />
-  <footer>
+  <footer
+    class="sc-beySPh bzsOnG"
+  >
     <button
+      class="sc-guDLey crmuma"
       disabled=""
     >
       Iniciar Brincadeira
     </button>
+    <img
+      alt="Sacolas de compras"
+      src="/assets/sacolas.png"
+    />
   </footer>
 </div>
 `;
