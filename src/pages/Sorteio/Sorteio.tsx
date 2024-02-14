@@ -16,6 +16,10 @@ const Sorteio = () => {
         event.preventDefault()
         if(resultado.has(participanteDaVez)){
             setAmigoSecreto(resultado.get(participanteDaVez)!);
+            setTimeout(() => {
+                setAmigoSecreto("");
+            }, 5000)
+            return;
         }
     }
 
