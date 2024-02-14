@@ -5,7 +5,7 @@ const Header = styled.header`
     justify-content: space-around;
     padding-top: 120px;
 
-    @media(max-width: 768px){
+    @media(max-width: 850px){
         padding-top: 60px;
         flex-direction: column;
         align-items: center;
@@ -22,7 +22,7 @@ const ImagemLogo = styled.div`
     height: 117px;
 
 
-    @media(max-width: 768px){
+    @media(max-width: 850px){
         background-image: url(/assets/logo-pequeno.png);
         background-repeat: no-repeat;
         width: 235px;

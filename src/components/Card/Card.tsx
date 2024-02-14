@@ -10,7 +10,7 @@ const Container = styled.section`
     flex: 1;
     margin-top: -32px;
     justify-content: center;
-    width: 100%;
+    max-width: 100%;
 `
 
 const Card: React.FC = ({children}) => {
