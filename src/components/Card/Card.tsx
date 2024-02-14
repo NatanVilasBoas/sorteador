@@ -1,4 +1,3 @@
-import { Outlet } from "react-router-dom";
 import styled from "styled-components";
 
 const Container = styled.section`
@@ -13,10 +12,10 @@ const Container = styled.section`
     justify-content: center;
 `
 
-const Card = () => {
+const Card: React.FC = ({children}) => {
     return(
         <Container>
-            <Outlet/>
+            {children}
         </Container>
     )
 }
